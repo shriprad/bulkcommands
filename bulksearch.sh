@@ -145,6 +145,7 @@ l)
 
 while read line; do
 
+echo $line
 $echo wget -S --spider $line
 
 n=$((n+1))
@@ -156,6 +157,7 @@ m)
 
 while read line; do
 
+echo $line
 $echo curl -IL $line
 
 n=$((n+1))
