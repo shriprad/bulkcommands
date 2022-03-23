@@ -16,6 +16,7 @@ echo -e " j)  Rpcbind (source port 111)"
 echo -e " k)  CharGen (source Port U19)"
 echo -e " l)  Wget Result "
 echo -e " m)  Curl Result "
+echo -e " n) GitLab"
 echo -e "Enter the vulnerability choice"
 
 read choice
