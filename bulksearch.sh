@@ -171,7 +171,7 @@ while read line; do
 
 echo $line 
 
-if [ "$#" -ne 2 ]; then
+if [ "$line" -ne 2 ]; then
     echo -ne "this script takes exactly 2 argument : the first is the ip address, the second the port number. \n example
 : ./detect_gitlab.sh 3.85.25.102 80\n"
     exit 1
